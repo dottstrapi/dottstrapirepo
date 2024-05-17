@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "college",
+  "info": {
+    "singularName": "colleg",
+    "pluralName": "college",
+    "displayName": "College"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Date": {
+      "required": true,
+      "unique": true,
+      "type": "date"
+    }
+  }
+}

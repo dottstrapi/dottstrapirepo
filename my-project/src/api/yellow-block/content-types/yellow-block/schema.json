@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "yellow_blocks",
+  "info": {
+    "singularName": "yellow-block",
+    "pluralName": "yellow-blocks",
+    "displayName": "YellowBlock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
