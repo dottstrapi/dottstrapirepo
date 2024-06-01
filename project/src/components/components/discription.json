@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_discriptions",
+  "info": {
+    "displayName": "Discription",
+    "icon": "pencil"
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "text"
+    }
+  }
+}

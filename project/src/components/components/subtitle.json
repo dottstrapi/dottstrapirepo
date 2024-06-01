@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_subtitles",
+  "info": {
+    "displayName": "Subtitle",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

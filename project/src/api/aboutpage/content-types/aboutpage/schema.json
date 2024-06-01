@@ -1,0 +1,218 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutpages",
+  "info": {
+    "singularName": "aboutpage",
+    "pluralName": "aboutpages",
+    "displayName": "aboutpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "abouttitle": {
+      "type": "string"
+    },
+    "primarytitle": {
+      "type": "string"
+    },
+    "suffixtitle": {
+      "type": "string"
+    },
+    "ybDescription": {
+      "type": "text"
+    },
+    "expvalue": {
+      "type": "string"
+    },
+    "explabel": {
+      "type": "string"
+    },
+    "devvalue": {
+      "type": "string"
+    },
+    "devlabel": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    },
+    "knowmore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    },
+    "bannerimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ybs": {
+      "type": "string"
+    },
+    "custom": {
+      "type": "string"
+    },
+    "sstitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "bcimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fsimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ssimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bctitle": {
+      "type": "string"
+    },
+    "bcdesc": {
+      "type": "text"
+    },
+    "fstitle": {
+      "type": "string"
+    },
+    "fsdesc": {
+      "type": "text"
+    },
+    "softtitle": {
+      "type": "string"
+    },
+    "ssdesc": {
+      "type": "text"
+    },
+    "chooseyb": {
+      "type": "string"
+    },
+    "visionimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "visiontitle": {
+      "type": "string"
+    },
+    "visiondesc": {
+      "type": "text"
+    },
+    "expertimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "exptitle": {
+      "type": "string"
+    },
+    "expdesc": {
+      "type": "text"
+    },
+    "commitimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "committitle": {
+      "type": "string"
+    },
+    "commitdesc": {
+      "type": "text"
+    },
+    "fireblock": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "metamask": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "web3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "blockfill": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

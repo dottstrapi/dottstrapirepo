@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_titles",
+  "info": {
+    "displayName": "Title",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
