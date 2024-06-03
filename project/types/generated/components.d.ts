@@ -35,6 +35,26 @@ export interface ComponentsImage extends Schema.Component {
   };
 }
 
+export interface ComponentsIntro extends Schema.Component {
+  collectionName: 'components_components_intros';
+  info: {
+    displayName: 'intro';
+    icon: 'chartBubble';
+    description: '';
+  };
+  attributes: {
+    introTitle: Attribute.String;
+    introimage: Attribute.Media;
+    introDesc: Attribute.Text;
+    launchpadtitle: Attribute.String;
+    keypoint1: Attribute.Text;
+    keypoint2: Attribute.Text;
+    bgtitle: Attribute.String;
+    dottlogo: Attribute.Media;
+    launchpaddesc: Attribute.RichText;
+  };
+}
+
 export interface ComponentsSubtitle extends Schema.Component {
   collectionName: 'components_components_subtitles';
   info: {
@@ -63,6 +83,7 @@ declare module '@strapi/types' {
       'components.button': ComponentsButton;
       'components.discription': ComponentsDiscription;
       'components.image': ComponentsImage;
+      'components.intro': ComponentsIntro;
       'components.subtitle': ComponentsSubtitle;
       'components.title': ComponentsTitle;
     }

@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_components_intros",
+  "info": {
+    "displayName": "intro",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "introTitle": {
+      "type": "string"
+    },
+    "introimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "introDesc": {
+      "type": "text"
+    },
+    "launchpadtitle": {
+      "type": "string"
+    },
+    "keypoint1": {
+      "type": "text"
+    },
+    "keypoint2": {
+      "type": "text"
+    },
+    "bgtitle": {
+      "type": "string"
+    },
+    "dottlogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "launchpaddesc": {
+      "type": "richtext"
+    }
+  }
+}

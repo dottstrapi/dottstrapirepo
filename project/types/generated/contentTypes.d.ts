@@ -430,6 +430,31 @@ export interface ApiAboutpageAboutpage extends Schema.CollectionType {
   };
 }
 
+export interface ApiDocDoc extends Schema.CollectionType {
+  collectionName: 'docs';
+  info: {
+    singularName: 'doc';
+    pluralName: 'docs';
+    displayName: 'doc';
+    description: '';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    intro: Attribute.Component<'components.intro'>;
+    introimage: Attribute.Media;
+    dottlogo: Attribute.Media;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<'api::doc.doc', 'oneToOne', 'admin::user'> &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<'api::doc.doc', 'oneToOne', 'admin::user'> &
+      Attribute.Private;
+  };
+}
+
 export interface PluginUploadFile extends Schema.CollectionType {
   collectionName: 'files';
   info: {
@@ -867,6 +892,7 @@ declare module '@strapi/types' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'api::aboutpage.aboutpage': ApiAboutpageAboutpage;
+      'api::doc.doc': ApiDocDoc;
       'plugin::upload.file': PluginUploadFile;
       'plugin::upload.folder': PluginUploadFolder;
       'plugin::content-releases.release': PluginContentReleasesRelease;
