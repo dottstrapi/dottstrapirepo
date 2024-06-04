@@ -445,6 +445,11 @@ export interface ApiDocDoc extends Schema.CollectionType {
     intro: Attribute.Component<'components.intro'>;
     introimage: Attribute.Media;
     dottlogo: Attribute.Media;
+    storyimg1: Attribute.Media;
+    storyimg2: Attribute.Media;
+    quoteimg: Attribute.Media;
+    star: Attribute.Media;
+    starnull: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

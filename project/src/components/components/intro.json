@@ -10,17 +10,6 @@
     "introTitle": {
       "type": "string"
     },
-    "introimage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "introDesc": {
       "type": "text"
     },
@@ -36,18 +25,170 @@
     "bgtitle": {
       "type": "string"
     },
-    "dottlogo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "launchpaddesc": {
       "type": "richtext"
+    },
+    "LPtitle": {
+      "type": "string"
+    },
+    "LPsubtitle": {
+      "type": "string"
+    },
+    "point1": {
+      "type": "string"
+    },
+    "point2": {
+      "type": "string"
+    },
+    "point3": {
+      "type": "string"
+    },
+    "point4": {
+      "type": "string"
+    },
+    "point5": {
+      "type": "string"
+    },
+    "point6": {
+      "type": "string"
+    },
+    "benefittitle": {
+      "type": "string"
+    },
+    "accgrowth": {
+      "type": "string"
+    },
+    "accpoint": {
+      "type": "string"
+    },
+    "accexpert": {
+      "type": "string"
+    },
+    "accexpertpoint": {
+      "type": "string"
+    },
+    "fundingopp": {
+      "type": "string"
+    },
+    "fundingopppont": {
+      "type": "string"
+    },
+    "validfeed": {
+      "type": "string"
+    },
+    "validfeedpoint": {
+      "type": "string"
+    },
+    "network": {
+      "type": "string"
+    },
+    "networkpoint": {
+      "type": "string"
+    },
+    "successstory": {
+      "type": "string"
+    },
+    "successpoint1": {
+      "type": "string"
+    },
+    "successpoint2": {
+      "type": "string"
+    },
+    "storydesc": {
+      "type": "text"
+    },
+    "ratingnumber": {
+      "type": "string"
+    },
+    "storyname": {
+      "type": "string"
+    },
+    "storyrole": {
+      "type": "string"
+    },
+    "storydesc2": {
+      "type": "text"
+    },
+    "ratingnumber2": {
+      "type": "string"
+    },
+    "storyname2": {
+      "type": "string"
+    },
+    "storyrole2": {
+      "type": "string"
+    },
+    "keycomponenttitle": {
+      "type": "string"
+    },
+    "appprocess": {
+      "type": "string"
+    },
+    "curriculum": {
+      "type": "string"
+    },
+    "apptext": {
+      "type": "string"
+    },
+    "curriculumtext": {
+      "type": "string"
+    },
+    "mentorship": {
+      "type": "string"
+    },
+    "mentortext": {
+      "type": "string"
+    },
+    "funding": {
+      "type": "string"
+    },
+    "fundingtext": {
+      "type": "string"
+    },
+    "demo": {
+      "type": "string"
+    },
+    "demotext": {
+      "type": "string"
+    },
+    "tips": {
+      "type": "string"
+    },
+    "research": {
+      "type": "string"
+    },
+    "researchtext": {
+      "type": "string"
+    },
+    "networkactively": {
+      "type": "string"
+    },
+    "nettext": {
+      "type": "string"
+    },
+    "beopen": {
+      "type": "string"
+    },
+    "beopentext": {
+      "type": "string"
+    },
+    "makemost": {
+      "type": "string"
+    },
+    "makemosttext": {
+      "type": "string"
+    },
+    "conclusion": {
+      "type": "string"
+    },
+    "conclusiontext1": {
+      "type": "string"
+    },
+    "conclusiontext2": {
+      "type": "string"
+    },
+    "conclusiontext3": {
+      "type": "string"
     }
   }
 }
